@@ -1,0 +1,17 @@
+C:\Users\Lucas\Documents\To-DoList_WinForms\To-DoList\To-DoList\bin\Debug\net10.0-windows\To-DoList.exe
+C:\Users\Lucas\Documents\To-DoList_WinForms\To-DoList\To-DoList\bin\Debug\net10.0-windows\To-DoList.deps.json
+C:\Users\Lucas\Documents\To-DoList_WinForms\To-DoList\To-DoList\bin\Debug\net10.0-windows\To-DoList.runtimeconfig.json
+C:\Users\Lucas\Documents\To-DoList_WinForms\To-DoList\To-DoList\bin\Debug\net10.0-windows\To-DoList.dll
+C:\Users\Lucas\Documents\To-DoList_WinForms\To-DoList\To-DoList\bin\Debug\net10.0-windows\To-DoList.pdb
+C:\Users\Lucas\Documents\To-DoList_WinForms\To-DoList\To-DoList\obj\Debug\net10.0-windows\To_DoList.Form1.resources
+C:\Users\Lucas\Documents\To-DoList_WinForms\To-DoList\To-DoList\obj\Debug\net10.0-windows\To-DoList.csproj.GenerateResource.cache
+C:\Users\Lucas\Documents\To-DoList_WinForms\To-DoList\To-DoList\obj\Debug\net10.0-windows\To-DoList.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lucas\Documents\To-DoList_WinForms\To-DoList\To-DoList\obj\Debug\net10.0-windows\To-DoList.AssemblyInfoInputs.cache
+C:\Users\Lucas\Documents\To-DoList_WinForms\To-DoList\To-DoList\obj\Debug\net10.0-windows\To-DoList.AssemblyInfo.cs
+C:\Users\Lucas\Documents\To-DoList_WinForms\To-DoList\To-DoList\obj\Debug\net10.0-windows\To-DoList.csproj.CoreCompileInputs.cache
+C:\Users\Lucas\Documents\To-DoList_WinForms\To-DoList\To-DoList\obj\Debug\net10.0-windows\To-DoList.sourcelink.json
+C:\Users\Lucas\Documents\To-DoList_WinForms\To-DoList\To-DoList\obj\Debug\net10.0-windows\To-DoList.dll
+C:\Users\Lucas\Documents\To-DoList_WinForms\To-DoList\To-DoList\obj\Debug\net10.0-windows\refint\To-DoList.dll
+C:\Users\Lucas\Documents\To-DoList_WinForms\To-DoList\To-DoList\obj\Debug\net10.0-windows\To-DoList.pdb
+C:\Users\Lucas\Documents\To-DoList_WinForms\To-DoList\To-DoList\obj\Debug\net10.0-windows\To-DoList.genruntimeconfig.cache
+C:\Users\Lucas\Documents\To-DoList_WinForms\To-DoList\To-DoList\obj\Debug\net10.0-windows\ref\To-DoList.dll

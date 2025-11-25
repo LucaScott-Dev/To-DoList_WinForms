@@ -28,71 +28,45 @@
         /// </summary>
         private void InitializeComponent()
         {
-            groupBox1 = new GroupBox();
-            label1 = new Label();
-            groupBox2 = new GroupBox();
-            txtTitleBox = new TextBox();
-            label2 = new Label();
-            txtDescriptionBox = new TextBox();
+            groupAddTask = new GroupBox();
+            lblNoTitle = new Label();
             btnSubmit = new Button();
-            groupBox3 = new GroupBox();
+            txtDescriptionBox = new TextBox();
+            lblDescription = new Label();
+            txtTitleBox = new TextBox();
+            lblText = new Label();
+            groupTasks = new GroupBox();
+            taskPanel = new FlowLayoutPanel();
+            groupBox1 = new GroupBox();
+            completedTaskPanel = new FlowLayoutPanel();
+            groupAddTask.SuspendLayout();
+            groupTasks.SuspendLayout();
             groupBox1.SuspendLayout();
             SuspendLayout();
             // 
-            // groupBox1
+            // groupAddTask
             // 
-            groupBox1.Controls.Add(btnSubmit);
-            groupBox1.Controls.Add(txtDescriptionBox);
-            groupBox1.Controls.Add(label2);
-            groupBox1.Controls.Add(txtTitleBox);
-            groupBox1.Controls.Add(label1);
-            groupBox1.Location = new Point(0, 0);
-            groupBox1.Name = "groupBox1";
-            groupBox1.Size = new Size(250, 215);
-            groupBox1.TabIndex = 0;
-            groupBox1.TabStop = false;
-            groupBox1.Text = "Add Task";
+            groupAddTask.Controls.Add(lblNoTitle);
+            groupAddTask.Controls.Add(btnSubmit);
+            groupAddTask.Controls.Add(txtDescriptionBox);
+            groupAddTask.Controls.Add(lblDescription);
+            groupAddTask.Controls.Add(txtTitleBox);
+            groupAddTask.Controls.Add(lblText);
+            groupAddTask.Location = new Point(0, 0);
+            groupAddTask.Name = "groupAddTask";
+            groupAddTask.Size = new Size(250, 246);
+            groupAddTask.TabIndex = 0;
+            groupAddTask.TabStop = false;
+            groupAddTask.Text = "Add Task";
             // 
-            // label1
+            // lblNoTitle
             // 
-            label1.AutoSize = true;
-            label1.Location = new Point(12, 35);
-            label1.Name = "label1";
-            label1.Size = new Size(38, 20);
-            label1.TabIndex = 0;
-            label1.Text = "Title";
-            // 
-            // groupBox2
-            // 
-            groupBox2.Location = new Point(256, 0);
-            groupBox2.Name = "groupBox2";
-            groupBox2.Size = new Size(532, 450);
-            groupBox2.TabIndex = 1;
-            groupBox2.TabStop = false;
-            groupBox2.Text = "Tasks";
-            // 
-            // txtTitleBox
-            // 
-            txtTitleBox.Location = new Point(12, 58);
-            txtTitleBox.Name = "txtTitleBox";
-            txtTitleBox.Size = new Size(125, 27);
-            txtTitleBox.TabIndex = 1;
-            // 
-            // label2
-            // 
-            label2.AutoSize = true;
-            label2.Location = new Point(12, 89);
-            label2.Name = "label2";
-            label2.Size = new Size(85, 20);
-            label2.TabIndex = 2;
-            label2.Text = "Description";
-            // 
-            // txtDescriptionBox
-            // 
-            txtDescriptionBox.Location = new Point(12, 112);
-            txtDescriptionBox.Name = "txtDescriptionBox";
-            txtDescriptionBox.Size = new Size(125, 27);
-            txtDescriptionBox.TabIndex = 3;
+            lblNoTitle.AutoSize = true;
+            lblNoTitle.ForeColor = Color.Red;
+            lblNoTitle.Location = new Point(12, 193);
+            lblNoTitle.Name = "lblNoTitle";
+            lblNoTitle.Size = new Size(0, 20);
+            lblNoTitle.TabIndex = 5;
             // 
             // btnSubmit
             // 
@@ -102,40 +76,109 @@
             btnSubmit.TabIndex = 4;
             btnSubmit.Text = "Submit";
             btnSubmit.UseVisualStyleBackColor = true;
+            btnSubmit.Click += btnSubmit_Click;
             // 
-            // groupBox3
+            // txtDescriptionBox
             // 
-            groupBox3.Location = new Point(0, 221);
-            groupBox3.Name = "groupBox3";
-            groupBox3.Size = new Size(250, 229);
-            groupBox3.TabIndex = 2;
-            groupBox3.TabStop = false;
-            groupBox3.Text = "Properties";
+            txtDescriptionBox.Location = new Point(12, 112);
+            txtDescriptionBox.Name = "txtDescriptionBox";
+            txtDescriptionBox.Size = new Size(125, 27);
+            txtDescriptionBox.TabIndex = 3;
+            // 
+            // lblDescription
+            // 
+            lblDescription.AutoSize = true;
+            lblDescription.Location = new Point(12, 89);
+            lblDescription.Name = "lblDescription";
+            lblDescription.Size = new Size(85, 20);
+            lblDescription.TabIndex = 2;
+            lblDescription.Text = "Description";
+            // 
+            // txtTitleBox
+            // 
+            txtTitleBox.Location = new Point(12, 58);
+            txtTitleBox.Name = "txtTitleBox";
+            txtTitleBox.Size = new Size(125, 27);
+            txtTitleBox.TabIndex = 1;
+            // 
+            // lblText
+            // 
+            lblText.AutoSize = true;
+            lblText.Location = new Point(12, 35);
+            lblText.Name = "lblText";
+            lblText.Size = new Size(38, 20);
+            lblText.TabIndex = 0;
+            lblText.Text = "Title";
+            // 
+            // groupTasks
+            // 
+            groupTasks.Controls.Add(taskPanel);
+            groupTasks.Location = new Point(256, 0);
+            groupTasks.Name = "groupTasks";
+            groupTasks.Size = new Size(532, 288);
+            groupTasks.TabIndex = 1;
+            groupTasks.TabStop = false;
+            groupTasks.Text = "Tasks";
+            // 
+            // taskPanel
+            // 
+            taskPanel.AutoScroll = true;
+            taskPanel.FlowDirection = FlowDirection.TopDown;
+            taskPanel.Location = new Point(6, 26);
+            taskPanel.Name = "taskPanel";
+            taskPanel.Size = new Size(520, 256);
+            taskPanel.TabIndex = 0;
+            taskPanel.WrapContents = false;
+            // 
+            // groupBox1
+            // 
+            groupBox1.Controls.Add(completedTaskPanel);
+            groupBox1.Location = new Point(256, 294);
+            groupBox1.Name = "groupBox1";
+            groupBox1.Size = new Size(532, 149);
+            groupBox1.TabIndex = 2;
+            groupBox1.TabStop = false;
+            groupBox1.Text = "Completed Tasks";
+            // 
+            // completedTaskPanel
+            // 
+            completedTaskPanel.AutoScroll = true;
+            completedTaskPanel.FlowDirection = FlowDirection.TopDown;
+            completedTaskPanel.Location = new Point(6, 18);
+            completedTaskPanel.Name = "completedTaskPanel";
+            completedTaskPanel.Size = new Size(520, 125);
+            completedTaskPanel.TabIndex = 0;
+            completedTaskPanel.WrapContents = false;
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
-            Controls.Add(groupBox3);
-            Controls.Add(groupBox2);
             Controls.Add(groupBox1);
+            Controls.Add(groupTasks);
+            Controls.Add(groupAddTask);
             Name = "Form1";
             Text = "Form1";
+            groupAddTask.ResumeLayout(false);
+            groupAddTask.PerformLayout();
+            groupTasks.ResumeLayout(false);
             groupBox1.ResumeLayout(false);
-            groupBox1.PerformLayout();
             ResumeLayout(false);
         }
 
         #endregion
 
-        private GroupBox groupBox1;
-        private Label label1;
-        private GroupBox groupBox2;
+        private GroupBox groupAddTask;
+        private Label lblText;
+        private GroupBox groupTasks;
         private Button btnSubmit;
         private TextBox txtDescriptionBox;
-        private Label label2;
+        private Label lblDescription;
         private TextBox txtTitleBox;
-        private GroupBox groupBox3;
+        private FlowLayoutPanel taskPanel;
+        private Label lblNoTitle;
+        private GroupBox groupBox1;
+        private FlowLayoutPanel completedTaskPanel;
     }
 }
