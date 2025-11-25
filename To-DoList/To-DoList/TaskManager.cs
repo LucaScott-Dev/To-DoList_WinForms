@@ -30,7 +30,7 @@ namespace To_DoList
 
         public void UncompleteTask(int index)
         {
-            if (index < 0 || index >=  Tasks.Count)
+            if (index < 0 || index >= tasks.Count)
                 return;
 
             tasks[index].IsComplete = false;

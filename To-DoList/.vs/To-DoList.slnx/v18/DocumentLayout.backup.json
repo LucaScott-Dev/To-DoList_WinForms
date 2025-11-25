@@ -7,20 +7,24 @@
       "RelativeMoniker": "D:0:0:{D792E345-3265-D3B3-1556-32EF1A5A246B}|To-DoList\\To-DoList.csproj|solutionrelative:to-dolist\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D792E345-3265-D3B3-1556-32EF1A5A246B}|To-DoList\\To-DoList.csproj|c:\\users\\lucas\\documents\\to-dolist_winforms\\to-dolist\\to-dolist\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D792E345-3265-D3B3-1556-32EF1A5A246B}|To-DoList\\To-DoList.csproj|solutionrelative:to-dolist\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D792E345-3265-D3B3-1556-32EF1A5A246B}|To-DoList\\To-DoList.csproj|c:\\users\\lucas\\documents\\to-dolist_winforms\\to-dolist\\to-dolist\\taskmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D792E345-3265-D3B3-1556-32EF1A5A246B}|To-DoList\\To-DoList.csproj|solutionrelative:to-dolist\\taskmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D792E345-3265-D3B3-1556-32EF1A5A246B}|To-DoList\\To-DoList.csproj|c:\\users\\lucas\\documents\\to-dolist_winforms\\to-dolist\\to-dolist\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{D792E345-3265-D3B3-1556-32EF1A5A246B}|To-DoList\\To-DoList.csproj|solutionrelative:to-dolist\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{D792E345-3265-D3B3-1556-32EF1A5A246B}|To-DoList\\To-DoList.csproj|c:\\users\\lucas\\documents\\to-dolist_winforms\\to-dolist\\to-dolist\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D792E345-3265-D3B3-1556-32EF1A5A246B}|To-DoList\\To-DoList.csproj|solutionrelative:to-dolist\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D792E345-3265-D3B3-1556-32EF1A5A246B}|To-DoList\\To-DoList.csproj|c:\\users\\lucas\\documents\\to-dolist_winforms\\to-dolist\\to-dolist\\taskitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D792E345-3265-D3B3-1556-32EF1A5A246B}|To-DoList\\To-DoList.csproj|solutionrelative:to-dolist\\taskitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D792E345-3265-D3B3-1556-32EF1A5A246B}|To-DoList\\To-DoList.csproj|C:\\Users\\Lucas\\Documents\\To-DoList_WinForms\\To-DoList\\to-dolist\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D792E345-3265-D3B3-1556-32EF1A5A246B}|To-DoList\\To-DoList.csproj|solutionrelative:to-dolist\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D792E345-3265-D3B3-1556-32EF1A5A246B}|To-DoList\\To-DoList.csproj|c:\\users\\lucas\\documents\\to-dolist_winforms\\to-dolist\\to-dolist\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D792E345-3265-D3B3-1556-32EF1A5A246B}|To-DoList\\To-DoList.csproj|solutionrelative:to-dolist\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,11 +34,23 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Lucas\\Documents\\To-DoList_WinForms\\To-DoList\\To-DoList\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "To-DoList\\Form1.Designer.cs",
+              "ToolTip": "C:\\Users\\Lucas\\Documents\\To-DoList_WinForms\\To-DoList\\To-DoList\\Form1.Designer.cs",
+              "RelativeToolTip": "To-DoList\\Form1.Designer.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAA4wK4AAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-25T00:37:29.377Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Lucas\\Documents\\To-DoList_WinForms\\To-DoList\\To-DoList\\Program.cs",
               "RelativeDocumentMoniker": "To-DoList\\Program.cs",
@@ -42,46 +58,43 @@
               "RelativeToolTip": "To-DoList\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-24T21:53:07.011Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-24T21:53:07.011Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Lucas\\Documents\\To-DoList_WinForms\\To-DoList\\To-DoList\\Form1.cs",
               "RelativeDocumentMoniker": "To-DoList\\Form1.cs",
-              "ToolTip": "C:\\Users\\Lucas\\Documents\\To-DoList_WinForms\\To-DoList\\To-DoList\\Form1.cs [Design]*",
-              "RelativeToolTip": "To-DoList\\Form1.cs [Design]*",
+              "ToolTip": "C:\\Users\\Lucas\\Documents\\To-DoList_WinForms\\To-DoList\\To-DoList\\Form1.cs [Design]",
+              "RelativeToolTip": "To-DoList\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-24T20:20:27.943Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "TaskManager.cs",
               "DocumentMoniker": "C:\\Users\\Lucas\\Documents\\To-DoList_WinForms\\To-DoList\\To-DoList\\TaskManager.cs",
               "RelativeDocumentMoniker": "To-DoList\\TaskManager.cs",
               "ToolTip": "C:\\Users\\Lucas\\Documents\\To-DoList_WinForms\\To-DoList\\To-DoList\\TaskManager.cs",
               "RelativeToolTip": "To-DoList\\TaskManager.cs",
-              "ViewState": "AgIAADIAAAAAAAAAAAAuwDQAAAA0AAAAAAAAAA==",
+              "ViewState": "AgIAADMAAAAAAAAAAAAxwEEAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-24T19:52:57.567Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-24T19:52:57.567Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "TaskItem.cs",
               "DocumentMoniker": "C:\\Users\\Lucas\\Documents\\To-DoList_WinForms\\To-DoList\\To-DoList\\TaskItem.cs",
               "RelativeDocumentMoniker": "To-DoList\\TaskItem.cs",
               "ToolTip": "C:\\Users\\Lucas\\Documents\\To-DoList_WinForms\\To-DoList\\To-DoList\\TaskItem.cs",
               "RelativeToolTip": "To-DoList\\TaskItem.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAywBQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-24T19:50:23.006Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-24T19:50:23.006Z"
             },
             {
               "$type": "Document",
@@ -89,9 +102,9 @@
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\Lucas\\Documents\\To-DoList_WinForms\\To-DoList\\To-DoList\\Form1.cs",
               "RelativeDocumentMoniker": "To-DoList\\Form1.cs",
-              "ToolTip": "C:\\Users\\Lucas\\Documents\\To-DoList_WinForms\\To-DoList\\To-DoList\\Form1.cs*",
-              "RelativeToolTip": "To-DoList\\Form1.cs*",
-              "ViewState": "AgIAAD0AAAAAAAAAAAAqwE0AAAAAAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\Lucas\\Documents\\To-DoList_WinForms\\To-DoList\\To-DoList\\Form1.cs",
+              "RelativeToolTip": "To-DoList\\Form1.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAiwJIAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-24T19:39:56.286Z",
               "EditorCaption": ""
